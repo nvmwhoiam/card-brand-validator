@@ -117,20 +117,20 @@ Note: These are test numbers that pass the Luhn algorithm validation. Do not use
 - Save card type preferences
 - Additional card brand support
 
-## 📬 Contact
+## Contact
 
+If you have any questions or need assistance, please do not hesitate to reach out. I apologize if any part of this setup is not clear; this is my first major project, and I am putting in continuous effort to improve it. Feel free to contact me at [info@sadevworks.com](mailto:info@sadevworks.com) or open an issue on the [GitHub Repository](https://github.com/nvmwhoiam/card-brand-validator).
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+
+- Email: [info@sadevworks.com](mailto:info@sadevworks.com)
+- Website: [sadevworks.com](https://sadevworks.com)
 - GitHub: [@nvmwhoiam](https://github.com/nvmwhoiam/)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
