@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/index.css">
     <meta name="description"
         content="Card Brand Validator detects and validates credit card brands in real time using the Luhn algorithm. Fast, responsive, and easy to integrate with any site.">
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
@@ -16,57 +16,92 @@
         content="card brand validator, credit card validation, payment processing, web utility app, JavaScript card validator, real-time card detection">
 
     <meta name="robots" content="index, follow">
-    <title>Card Brand Validator | SADevWorks.com</title>
+    <title>Intelligent Card Brand Detector & Validator Tool</title>
 </head>
 
 <body>
+
     <main class="main_container">
 
-        <section class="card-validator">
+        <header class="header_container">
+            <h1 class="app_title">Card Brand Validator</h1>
+        </header>
 
-            <h1>Card Brand Validator</h1>
+        <section class="section_container">
 
-            <div class="credit-card">
-                <div class="card-front">
-                    <div class="card-logo">
-                        <img src="./assets/svgs/chip.svg" alt="Card Chip" class="chip-image">
-                        <img src="./assets/svgs/unknown.svg" alt="Card Brand" class="brand-image" id="cardBrandImage">
-                    </div>
-                    <div class="card-number" id="displayCardNumber">**** **** **** ****</div>
-                    <div class="card-details">
-                        <div class="card-holder">
-                            <div class="label">Card Holder</div>
-                            <div class="value">Mr John Doe</div>
+            <div class="card_validator">
+
+                <div class="credit_card">
+
+                    <div class="card_front">
+
+                        <div class="card_logo">
+                            <img src="./assets/svgs/chip.svg" alt="Card Chip" class="chip_image">
+                            <img src="./assets/svgs/unknown.svg" alt="Card Brand" class="brand_image"
+                                id="cardBrandImage">
                         </div>
-                        <div class="card-expires">
-                            <div class="label">Expires</div>
-                            <div class="value">31/12/36</div>
+
+                        <h2 class="card_number" id="displayCardNumber">**** **** **** ****</h2>
+
+                        <div class="card_details">
+
+                            <div class="card_holder">
+                                <h3 class="label">Card Holder</h3>
+                                <h4 class="value">Mr John Doe</h4>
+                            </div>
+
+                            <div class="card_expires">
+                                <h3 class="label">Expires</h3>
+                                <h4 class="value">12/30</h4>
+                            </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
+                <div class="card_input_wrapper">
+
+                    <div class="card_icons">
+
+                        <img src="./assets/svgs/visa.svg" alt="Visa" class="card_icon" data-brand="visa">
+                        <img src="./assets/svgs/mastercard.svg" alt="Mastercard" class="card_icon"
+                            data-brand="mastercard">
+                        <img src="./assets/svgs/amex.svg" alt="American Express" class="card_icon" data-brand="amex">
+                        <img src="./assets/svgs/discover.svg" alt="Discover" class="card_icon" data-brand="discover">
+                        <img src="./assets/svgs/jcb.svg" alt="JCB" class="card_icon" data-brand="jcb">
+                        <img src="./assets/svgs/diners.svg" alt="Diners" class="card_icon" data-brand="diners">
+                        <img src="./assets/svgs/maestro.svg" alt="Maestro" class="card_icon" data-brand="maestro">
+
+                    </div>
+
+                    <div class="input_group">
+
+                        <input type="text" id="cardNumber" class="card_input" placeholder="Enter card number"
+                            maxlength="19" aria-label="Credit card number input">
+                        <div class="card_type" aria-live="polite"></div>
+
+                    </div>
+
+                </div>
+
+                <p class="validation_message" aria-live="polite"></p>
+
             </div>
-            <div class="card-input-wrapper">
-                <div class="card-icons">
-                    <img src="./assets/svgs/visa.svg" alt="Visa" class="card-icon" data-brand="visa">
-                    <img src="./assets/svgs/mastercard.svg" alt="Mastercard" class="card-icon" data-brand="mastercard">
-                    <img src="./assets/svgs/amex.svg" alt="American Express" class="card-icon" data-brand="amex">
-                    <img src="./assets/svgs/discover.svg" alt="Discover" class="card-icon" data-brand="discover">
-                    <img src="./assets/svgs/jcb.svg" alt="JCB" class="card-icon" data-brand="jcb">
-                    <img src="./assets/svgs/diners.svg" alt="Diners" class="card-icon" data-brand="diners">
-                    <img src="./assets/svgs/maestro.svg" alt="Maestro" class="card-icon" data-brand="maestro">
-                </div>
-                <div class="input-group">
-                    <input type="text" id="cardNumber" class="card-input" placeholder="Enter card number" maxlength="19"
-                        aria-label="Credit card number input">
-                    <div class="card-type" aria-live="polite"></div>
-                </div>
-            </div>
-            <p class="validation-message" aria-live="polite"></p>
 
         </section>
 
+        <footer class="footer_container">
+            <p class="footer_content">
+                Copyright &copy; 2025. All Rights Reserved | Powered By <a href="https://sadevworks.com" hreflang="en"
+                    aria-label="Home page">SADevWorks</a>
+            </p>
+        </footer>
+
     </main>
-    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
